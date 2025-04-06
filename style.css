@@ -1,0 +1,143 @@
+body{
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+ 
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+.navbar{
+  padding:  10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  
+}
+
+.navbar_s1__title{
+  color: #e60cc5;
+  align-items: center;
+  margin-left: 10px;
+
+}
+.navbar__s2{
+  border: solid black 2px;
+  padding: 10px;
+  border-radius: 30px;
+  width:1000px;
+  display: flex;
+  width: 1000px;
+  align-items: center;
+  margin-left: -20px;
+  
+}
+.navbar__s2 input{
+  width: 1200px;
+  border: none;
+  margin-left: 5px;
+  font-size: 15px;
+  
+}
+.navbar__s2 input:focus{
+outline: none;
+}
+.navbar__s2 p{
+  gap: 20px;
+}
+.navbar__s3{
+  display: flex;
+  font-size: 15px;
+  gap: 20px;
+  align-items: center;
+}
+.categories{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  flex-grow: 1;
+  
+}
+.categories p{
+  border: solid #e60cc5;
+  background-color: #e60cc5;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 8px;
+}
+.picture img{
+  width: 100%;
+}
+
+.recommended{
+  padding:10px;
+  
+}
+ .recommended__container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  flex-wrap: wrap;
+
+ }
+ .course-card{
+  width: 350px;
+
+ }
+ .course-card img{
+  width: 100%;
+  height: 50%;
+ }
+.topics{
+  padding: 10px;
+}
+.topic__container p{
+  border: solid grey 2px;
+  padding: 10px;
+  flex-grow: 1;
+  flex-basis: 25%;
+ gap: 10px;
+ margin: 10px;
+  
+}
+.topic__container{
+  display: flex;
+   margin-top: 10px;
+  flex-wrap: wrap;
+ 
+}
+.popular__container{
+  display:flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  gap: 10px;
+  justify-content: space-between;
+}
+.popular{
+  padding: 10px;
+}
+.footer{
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+ .footer__one{
+  display: flex;
+ 
+
+ }
+.footer__one__s2{
+  padding-left: 20px;
+}
+.footer__two{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.footer__one p{
+  margin: 20px;
+}
